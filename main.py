@@ -10,7 +10,7 @@ from telegram.ext import CommandHandler
 from better_profanity import profanity
 
 # Enter your Telegram Bot Token below. Instructions how to get the Token in the setup section on the github of the project
-telegram_bot_token = '5631347451:AAHh0w_X16lhmgXSV1BzpOWvK1gwB27JtvQ'
+telegram_bot_token = 'TOKEN'
 bot = telegram.Bot(telegram_bot_token)
 # print(bot.get_me())
 
