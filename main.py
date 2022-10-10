@@ -25,7 +25,10 @@ bad_words = ['sex', 'sexy', 'hot', 'licking', 'sucking']
 
 
 def start(update: Update, context: CallbackContext):
-    context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a bot, please talk to me!")
+    context.bot.send_message(chat_id=update.effective_chat.id,
+                             text="Welcome to the StableDiffusionBot. "
+                                  "\n\nHere you can let your creativity run wild! "
+                                  "\n\nUse the /generate <Text> command to generate images using StableDiffusion")
 
 
 def helpCommand(update: Update, context: CallbackContext):
