@@ -9,7 +9,6 @@ A quick overview over the implemented commands
 |/start           |Does nothing special just writes a welcoming message to the user.                                                               |
 |/generate <Text> |Generates an image according to what was entered behind the command. For example "/generate Van Gogh playing american football".|
 |/help            |Shows a small informational text about how */generate* works.                                                                   |
-|/stop            |Should stop the bot but is not working properly, so if you have any suggestions to fix it, hit me up.                           |
 
 ## Setup
 For the Bot we need two Tokens which are simple to get but you need a github account for one of them.
